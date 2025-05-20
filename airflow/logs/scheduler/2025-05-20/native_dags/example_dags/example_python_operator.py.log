@@ -1,0 +1,8 @@
+[2025-05-19T21:19:51.045-0300] {processor.py:157} INFO - Started process (PID=12064) to work on /home/cebola_ia/cebola_vx0/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-05-19T21:19:51.046-0300] {processor.py:829} INFO - Processing file /home/cebola_ia/cebola_vx0/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-05-19T21:19:51.047-0300] {logging_mixin.py:151} INFO - [2025-05-19T21:19:51.047-0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/cebola_ia/cebola_vx0/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-05-19T21:19:51.055-0300] {logging_mixin.py:151} INFO - [2025-05-19T21:19:51.055-0300] {example_python_operator.py:89} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-05-19T21:19:51.055-0300] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/cebola_ia/cebola_vx0/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-05-19T21:19:51.075-0300] {logging_mixin.py:151} INFO - [2025-05-19T21:19:51.075-0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-19T21:19:51.091-0300] {logging_mixin.py:151} INFO - [2025-05-19T21:19:51.091-0300] {dag.py:3696} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-05-19T21:19:51.127-0300] {processor.py:179} INFO - Processing /home/cebola_ia/cebola_vx0/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.085 seconds

@@ -1,0 +1,11 @@
+[2025-05-19T21:19:29.726-0300] {processor.py:157} INFO - Started process (PID=11975) to work on /home/cebola_ia/cebola_vx0/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-05-19T21:19:29.727-0300] {processor.py:829} INFO - Processing file /home/cebola_ia/cebola_vx0/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-05-19T21:19:29.728-0300] {logging_mixin.py:151} INFO - [2025-05-19T21:19:29.728-0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/cebola_ia/cebola_vx0/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-05-19T21:19:29.732-0300] {logging_mixin.py:151} INFO - [2025-05-19T21:19:29.731-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/cebola_ia/cebola_vx0/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-05-19T21:19:29.732-0300] {logging_mixin.py:151} INFO - [2025-05-19T21:19:29.732-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-05-19T21:19:29.733-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/cebola_ia/cebola_vx0/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-05-19T21:19:29.758-0300] {processor.py:179} INFO - Processing /home/cebola_ia/cebola_vx0/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.035 seconds

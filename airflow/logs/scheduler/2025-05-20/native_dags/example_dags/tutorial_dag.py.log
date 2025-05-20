@@ -1,0 +1,7 @@
+[2025-05-19T21:19:38.474-0300] {processor.py:157} INFO - Started process (PID=12013) to work on /home/cebola_ia/cebola_vx0/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-19T21:19:38.475-0300] {processor.py:829} INFO - Processing file /home/cebola_ia/cebola_vx0/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-05-19T21:19:38.476-0300] {logging_mixin.py:151} INFO - [2025-05-19T21:19:38.475-0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/cebola_ia/cebola_vx0/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-19T21:19:38.483-0300] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/cebola_ia/cebola_vx0/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-05-19T21:19:38.502-0300] {logging_mixin.py:151} INFO - [2025-05-19T21:19:38.502-0300] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-05-19T21:19:38.514-0300] {logging_mixin.py:151} INFO - [2025-05-19T21:19:38.513-0300] {dag.py:3696} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-05-19T21:19:38.551-0300] {processor.py:179} INFO - Processing /home/cebola_ia/cebola_vx0/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds

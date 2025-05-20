@@ -1,0 +1,6 @@
+[2025-05-19T21:19:30.882-0300] {processor.py:157} INFO - Started process (PID=11976) to work on /home/cebola_ia/cebola_vx0/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2025-05-19T21:19:30.885-0300] {processor.py:829} INFO - Processing file /home/cebola_ia/cebola_vx0/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2025-05-19T21:19:30.887-0300] {logging_mixin.py:151} INFO - [2025-05-19T21:19:30.886-0300] {dagbag.py:539} INFO - Filling up the DagBag from /home/cebola_ia/cebola_vx0/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2025-05-19T21:19:30.892-0300] {logging_mixin.py:151} INFO - [2025-05-19T21:19:30.892-0300] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2025-05-19T21:19:30.892-0300] {processor.py:841} WARNING - No viable dags retrieved from /home/cebola_ia/cebola_vx0/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2025-05-19T21:19:30.970-0300] {processor.py:179} INFO - Processing /home/cebola_ia/cebola_vx0/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.096 seconds

@@ -1,0 +1,6 @@
+models:
+  - phi3
+  - tinyllama
+threshold: 0.85
+airflow dags list | grep "validacao_diaria" && \
+airflow tasks list validacao_diaria | grep -c "sanitizar\|validar_cross_model" | grep 2
